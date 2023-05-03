@@ -1,6 +1,7 @@
 {
-  "name": "",
-  "short_name": "",
+  "start_url": "./",
+  "name": "Wychwood Sound",
+  "short_name": "Wychwood",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
