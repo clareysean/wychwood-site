@@ -29,8 +29,11 @@ body {
 
 .navbar {
   margin-bottom: 1rem;
-  /* align-items: center; */
+  border: none;
+  outline: none;
+  box-shadow: none;
 }
+
 .navbar-brand {
   height: 4em;
   border-radius: 3rem;
@@ -54,7 +57,7 @@ body {
   content: "";
   position: relative;
   top: -7px;
-  transition: all 0.15s ease-out; /*taken down to hide quicker*/
+  transition: all 0.15s ease-out;
   transform-origin: center;
 }
 
@@ -98,6 +101,20 @@ body {
 
 .main-heading {
   font-weight: 300;
+  translate: 0px;
+  position: relative;
+  animation: 1s ease-in-out slideUp;
+  transition: 0.5s ease-in-out;
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(-30%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
 }
 
 .main-container {
