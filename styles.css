@@ -177,10 +177,6 @@ body {
   margin: 1rem auto auto auto;
 }
 
-.contact-heading {
-  color: #060d16;
-  font-size: 3rem;
-}
 .contact-header {
   background: rgb(255, 255, 255);
   background: linear-gradient(
@@ -195,6 +191,12 @@ body {
   position: relative;
 }
 
+.contact-heading {
+  color: #060d16;
+  animation: 1s ease-in-out slideUp;
+  transition: 0.5s ease-in-out;
+}
+
 .contact-page-map {
   padding: 3rem;
 }
@@ -207,12 +209,13 @@ body {
   border-radius: 1rem;
 }
 @media (max-width: 1000px) {
+  .input-transparent {
+    width: 90% !important;
+  }
+
   .map-embedded {
     width: 90%;
     height: 400px;
-  }
-  .input-transparent {
-    width: 90% !important;
   }
 }
 

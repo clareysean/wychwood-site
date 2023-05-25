@@ -1,7 +1,11 @@
+// burger menu
+
 function openMenu() {
   var burger = document.querySelector(".burger_menu");
   burger.classList.toggle("open");
 }
+
+// contact form
 
 const form = document.querySelector(".contact-form");
 const nameInput = form.querySelector('input[name="yourName"]');
