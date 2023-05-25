@@ -107,6 +107,20 @@ body {
   transition: 0.5s ease-in-out;
 }
 
+.headline-hr {
+  width: 30%;
+  margin: 2rem auto;
+  border: none;
+  height: 1px;
+  background: rgb(25, 51, 85);
+  background: linear-gradient(
+    90deg,
+    rgba(25, 51, 85, 1) 0%,
+    rgb(255, 254, 254) 50%,
+    rgba(25, 51, 85, 1) 100%
+  );
+}
+
 @keyframes slideUp {
   0% {
     transform: translateY(-30%);
@@ -138,7 +152,7 @@ body {
 
 .gallery {
   width: 95%;
-  margin: auto;
+  margin: -2rem auto;
   border-radius: 0.5rem;
 }
 .carousel-inner {
@@ -194,8 +208,11 @@ body {
 }
 @media (max-width: 1000px) {
   .map-embedded {
-    width: 70%;
+    width: 90%;
     height: 400px;
+  }
+  .input-transparent {
+    width: 90% !important;
   }
 }
 
@@ -215,7 +232,7 @@ body {
   background-color: var(--main-bg-light);
   border: none;
   box-shadow: none;
-  width: 60%;
+  width: 40%;
   font-size: larger;
   color: var(--main-bg-gray);
   border-radius: 0.25rem;
