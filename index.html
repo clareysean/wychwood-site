@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400&display=swap"
       rel="stylesheet"
     />
     <link
@@ -50,7 +50,7 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg me-3">
+      <nav class="navbar row gx-1 navbar-expand-lg">
         <div class="container-fluid">
           <a href="#"
             ><img
@@ -71,7 +71,7 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
-              <li class="nav-item ms-auto fs-5 fw-bold p-3">
+              <li class="nav-item-1 nav-item ms-auto fs-5 fw-bold p-2">
                 <a
                   class="navlink active link-secondary text-decoration-none"
                   aria-current="Contact"
@@ -79,20 +79,12 @@
                   >Contact</a
                 >
               </li>
-              <li class="nav-item ms-auto fs-5 fw-bold p-3">
+              <li class="nav-item-2 nav-item ms-auto fs-5 fw-bold p-2">
                 <a
                   class="navlink link-secondary text-decoration-none"
                   aria-current="Gallery"
                   href="#gallery"
                   >Gallery</a
-                >
-              </li>
-              <li class="nav-item ms-auto fs-5 fw-bold p-3">
-                <a
-                  class="navlink link-secondary text-decoration-none"
-                  aria-current="Testimonials"
-                  href="#about"
-                  >About</a
                 >
               </li>
             </ul>
@@ -101,14 +93,12 @@
       </nav>
     </header>
     <section id="home">
-      <main id="main">
-        <div class="main-container">
-          <h1 class="main-heading">
-            A boutique recording studio located in Toronto's west end.
-          </h1>
-          <hr class="headline-hr" />
-        </div>
-      </main>
+      <div class="main-container">
+        <h1 class="main-heading">
+          A boutique recording studio located in Toronto's west end.
+        </h1>
+        <hr class="headline-hr" />
+      </div>
       <section id="gallery" class="gallery">
         <div id="carouselExample" class="carousel slide">
           <div class="carousel-inner">
@@ -151,24 +141,8 @@
           <h1 class="contact-heading">Contact us.</h1>
         </header>
         <div class="contact-container">
-          <form
-            class="contact-form"
-            action="mailto:goodtracksaudio@gmail.com"
-            method="post"
-            enctype="text/plain"
-          >
-            <label class="form-label" for="">Subject:</label>
-            <input class="input-transparent" type="text" name="yourName" />
-            <label class="form-label" for="">Message:</label>
-            <textarea
-              class="input-transparent"
-              name=""
-              id=""
-              cols="30"
-              rows="10"
-            ></textarea>
-            <button class="contact-btn" type="submit">Submit</button>
-          </form>
+          <img class="mail-img" src="./images/email-1-svgrepo-com.svg" alt="" />
+          <h4>wychwoodsound@gmail.com</h4>
           <iframe
             class="map-embedded"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2885.7407757441624!2d-79.4348576845016!3d43.67436077912053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b35d7fb20247d%3A0xb0863c65850b6a87!2sWychwood%20Sound!5e0!3m2!1sen!2sca!4v1677971030175!5m2!1sen!2sca"
